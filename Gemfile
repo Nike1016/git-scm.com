@@ -15,7 +15,7 @@ gem "puma"
 gem "tilt"
 
 gem "diff-lcs"
-gem "json"
+gem "json", ">= 2.3.0"
 gem "launchy"
 gem "netrc"
 gem "nokogiri"
