@@ -10,13 +10,13 @@ gem "elasticsearch", "2.0.2"
 gem "faraday"
 gem "faraday_middleware"
 gem "iso8601"
-gem "octokit"
+gem "octokit", ">= 4.8.0"
 gem "puma"
 gem "tilt"
 
 gem "diff-lcs"
 gem "json"
-gem "launchy"
+gem "launchy", ">= 2.4.3"
 gem "netrc"
 gem "nokogiri"
 gem "redcarpet"
@@ -50,7 +50,7 @@ group :test do
   gem "rspec-rails"
   gem "shoulda-matchers"
   gem "vcr"
-  gem "webmock"
+  gem "webmock", ">= 3.3.0"
 end
 
 group :production do
