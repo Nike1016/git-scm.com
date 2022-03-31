@@ -11,7 +11,7 @@ gem "faraday"
 gem "faraday_middleware"
 gem "iso8601"
 gem "octokit"
-gem "puma"
+gem "puma", ">= 4.3.12"
 gem "tilt"
 
 gem "diff-lcs"
