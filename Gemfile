@@ -20,7 +20,7 @@ gem "launchy"
 gem "netrc"
 gem "nokogiri"
 gem "redcarpet"
-gem "yajl-ruby"
+gem "yajl-ruby", ">= 1.4.2"
 
 # Assets
 gem "compass-rails"
