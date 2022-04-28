@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.4.2"
 
-gem "rails", "~> 4.2.11"
+gem "rails", "~> 5.2.7", ">= 5.2.7.1"
 
 gem "asciidoctor", ">=1.5.4"
 gem "elasticsearch", "2.0.2"
@@ -36,7 +36,7 @@ end
 
 group :development, :test do
   gem "bullet"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.2.2"
   gem "pry-byebug"
   gem "rubocop-github"
   gem "ruby-prof"
