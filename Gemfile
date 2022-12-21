@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.4.2"
 
-gem "rails", "~> 4.2.11"
+gem "rails", "~> 4.2.11", ">= 4.2.11.1"
 
 gem "asciidoctor", ">=1.5.4"
 gem "elasticsearch", "2.0.2"
@@ -24,7 +24,7 @@ gem "yajl-ruby"
 
 # Assets
 gem "compass-rails"
-gem "sass-rails"
+gem "sass-rails", ">= 6.0.0"
 gem "uglifier", "3.2.0"
 
 group :development do
