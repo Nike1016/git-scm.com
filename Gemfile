@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.4.2"
 
-gem "rails", "~> 4.2.11"
+gem "rails", "~> 5.0.0"
 
 gem "asciidoctor", ">=1.5.4"
 gem "elasticsearch", "2.0.2"
@@ -18,7 +18,7 @@ gem "diff-lcs"
 gem "json"
 gem "launchy"
 gem "netrc"
-gem "nokogiri"
+gem "nokogiri", ">= 1.10.5"
 gem "redcarpet"
 gem "yajl-ruby"
 
