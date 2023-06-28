@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 ruby "2.4.2"
 
-gem "rails", "~> 4.2.11"
+gem "rails", "~> 6.1.7", ">= 6.1.7.4"
 
 gem "asciidoctor", ">=1.5.4"
 gem "elasticsearch", "2.0.2"
@@ -23,8 +23,8 @@ gem "redcarpet"
 gem "yajl-ruby"
 
 # Assets
-gem "compass-rails"
-gem "sass-rails"
+gem "compass-rails", ">= 4.0.0"
+gem "sass-rails", ">= 5.0.8"
 gem "uglifier", "3.2.0"
 
 group :development do
@@ -36,7 +36,7 @@ end
 
 group :development, :test do
   gem "bullet"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.7.6"
   gem "pry-byebug"
   gem "rubocop-github"
   gem "ruby-prof"
@@ -47,7 +47,7 @@ group :test do
   gem "database_cleaner"
   gem "fabrication"
   gem "rails-perftest"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.8.0"
   gem "shoulda-matchers"
   gem "vcr"
   gem "webmock"
