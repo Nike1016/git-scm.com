@@ -3,14 +3,14 @@
 source "https://rubygems.org"
 ruby "2.4.2"
 
-gem "rails", "~> 4.2.11"
+gem "rails", "~> 7.1.0"
 
 gem "asciidoctor", ">=1.5.4"
 gem "elasticsearch", "2.0.2"
 gem "faraday"
 gem "faraday_middleware"
 gem "iso8601"
-gem "octokit"
+gem "octokit", ">= 4.9.0"
 gem "puma"
 gem "tilt"
 
@@ -23,20 +23,20 @@ gem "redcarpet"
 gem "yajl-ruby"
 
 # Assets
-gem "compass-rails"
-gem "sass-rails"
+gem "compass-rails", ">= 4.0.0"
+gem "sass-rails", ">= 6.0.0"
 gem "uglifier", "3.2.0"
 
 group :development do
   gem "awesome_print"
-  gem "better_errors"
+  gem "better_errors", ">= 2.5.0"
   gem "binding_of_caller"
   gem "foreman"
 end
 
 group :development, :test do
-  gem "bullet"
-  gem "dotenv-rails"
+  gem "bullet", ">= 5.7.6"
+  gem "dotenv-rails", ">= 2.7.6"
   gem "pry-byebug"
   gem "rubocop-github"
   gem "ruby-prof"
@@ -47,8 +47,8 @@ group :test do
   gem "database_cleaner"
   gem "fabrication"
   gem "rails-perftest"
-  gem "rspec-rails"
-  gem "shoulda-matchers"
+  gem "rspec-rails", ">= 3.8.0"
+  gem "shoulda-matchers", ">= 3.1.3"
   gem "vcr"
   gem "webmock"
 end
